@@ -23,19 +23,23 @@
 // Q1
 // Write a function called `sum` that takes two
 // parameters and returns the sum of those 2 numbers.
-function sum(1, 2){
-  return 1 + 2;
-} 
+function (a,b){
+  return (a + b);
+}
 
-sum (1,2);
-3
-  
-alert(sum);
+sum (12,23);
 
+35
 // Q2
 // Write a function named `avg` that takes 3 parameters
 // and returns the average of those 3 numbers.
+var avg = function (a,b,c) {
+  return (a/b.c);
+}
+undefined
 
+avg (12,23,6);
+NaN
 
 
 
